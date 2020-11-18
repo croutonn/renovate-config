@@ -1,4 +1,4 @@
-# @croutonn/renovate-config [![Actions Status: test](https://github.com/croutonn/renovate-config/workflows/test/badge.svg)](https://github.com/croutonn/renovate-config/actions?query=workflow%3A"test")
+# @croutonn/renovate-config [![Actions Status: test](https://github.com/croutonn/renovate-config/workflows/Test/badge.svg)](https://github.com/croutonn/renovate-config/actions?query=workflow%3A"Test")
 
 [Shareable config](https://renovatebot.com/docs/config-presets/) for [Renovate](https://renovatebot.com).
 

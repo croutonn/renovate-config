@@ -1,132 +1,132 @@
 {
-  "name": "@croutonn/renovate-config",
-  "description": "Shareable config for Renovate (renovatebot.com)",
-  "version": "1.0.0",
-  "author": "croutonn <croutonna@gmail.com>",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "scripts": {
-    "test": "renovate-config-validator",
-    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\""
-  },
-  "devDependencies": {
-    "husky": "^4.3.5",
-    "lint-staged": "^10.5.3",
-    "prettier": "^2.1.2",
-    "renovate": "^23.100.5"
-  },
-  "homepage": "https://github.com/croutonn/renovate-config",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/croutonn/renovate-config.git"
-  },
-  "bugs": {
-    "url": "https://github.com/croutonn/renovate-config/issues"
-  },
-  "keywords": [
-    "npm",
-    "renovate"
-  ],
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
-  "renovate-config": {
-    "default": {
-      "extends": [
-        "config:base",
-        ":timezone(Asia/Tokyo)"
-      ],
-      "npm": {
-        "extends": [
-          ":noUnscheduledUpdates",
-          ":semanticPrefixFixDepsChoreOthers",
-          ":separatePatchReleases",
-          ":unpublishSafe",
-          ":prNotPending",
-          "helpers:disableTypesNodeMajor"
-        ],
-        "prBodyDefinitions": {
-          "CompatibilityScore": "[![compatibility-score for {{{depNameEscaped}}}](https://api.dependabot.com/badges/compatibility_score?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})](https://dependabot.com/compatibility-score/?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})",
-          "Sourcegraph": "[![code search for \"{{{depName}}}\"](https://sourcegraph.com/search/badge?q=repo:%5Egithub%5C.com/{{{repository}}}%24+case:yes+{{{depName}}}&label=matches)](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/{{{repository}}}%24+case:yes+{{{depName}}})"
-        },
-        "prBodyColumns": [
-          "Package",
-          "Update",
-          "Type",
-          "Change",
-          "CompatibilityScore",
-          "Sourcegraph"
-        ],
-        "rangeStrategy": "bump",
-        "automergeType": "branch",
-        "major": {
-          "automerge": false
-        },
-        "minor": {
-          "automerge": true,
-          "groupName": "Minor updates"
-        },
-        "patch": {
-          "automerge": true,
-          "groupName": "Patch updates"
-        },
-        "lockFileMaintenance": {
-          "enabled": true,
-          "schedule": [
-            "at any time"
-          ],
-          "automerge": true,
-          "groupName": "LockFile Maintenance"
-        },
-        "packageRules": [
-          {
-            "groupName": "Manuall updates",
-            "packageNames": [
-              "eslint",
-              "prettier",
-              "stylelint",
-              "typescript"
-            ],
-            "enabled": false
-          },
-          {
-            "description": "disable package.json > engines update",
-            "depTypeList": [
-              "engines"
-            ],
-            "enabled": false
-          }
-        ]
-      }
+    "name": "@croutonn/renovate-config",
+    "description": "Shareable config for Renovate (renovatebot.com)",
+    "version": "1.0.0",
+    "author": "croutonn <croutonna@gmail.com>",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "test": "renovate-config-validator",
+        "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\""
     },
-    "maintenance": {
-      "extends": [
-        "@croutonn"
-      ],
-      "npm": {
-        "major": {
-          "enabled": false
+    "devDependencies": {
+        "husky": "^4.3.5",
+        "lint-staged": "^10.5.3",
+        "prettier": "^2.1.2",
+        "renovate": "^24.2.0"
+    },
+    "homepage": "https://github.com/croutonn/renovate-config",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/croutonn/renovate-config.git"
+    },
+    "bugs": {
+        "url": "https://github.com/croutonn/renovate-config/issues"
+    },
+    "keywords": [
+        "npm",
+        "renovate"
+    ],
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "renovate-config": {
+        "default": {
+            "extends": [
+                "config:base",
+                ":timezone(Asia/Tokyo)"
+            ],
+            "npm": {
+                "extends": [
+                    ":noUnscheduledUpdates",
+                    ":semanticPrefixFixDepsChoreOthers",
+                    ":separatePatchReleases",
+                    ":unpublishSafe",
+                    ":prNotPending",
+                    "helpers:disableTypesNodeMajor"
+                ],
+                "prBodyDefinitions": {
+                    "CompatibilityScore": "[![compatibility-score for {{{depNameEscaped}}}](https://api.dependabot.com/badges/compatibility_score?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})](https://dependabot.com/compatibility-score/?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})",
+                    "Sourcegraph": "[![code search for \"{{{depName}}}\"](https://sourcegraph.com/search/badge?q=repo:%5Egithub%5C.com/{{{repository}}}%24+case:yes+{{{depName}}}&label=matches)](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/{{{repository}}}%24+case:yes+{{{depName}}})"
+                },
+                "prBodyColumns": [
+                    "Package",
+                    "Update",
+                    "Type",
+                    "Change",
+                    "CompatibilityScore",
+                    "Sourcegraph"
+                ],
+                "rangeStrategy": "bump",
+                "automergeType": "branch",
+                "major": {
+                    "automerge": false
+                },
+                "minor": {
+                    "automerge": true,
+                    "groupName": "Minor updates"
+                },
+                "patch": {
+                    "automerge": true,
+                    "groupName": "Patch updates"
+                },
+                "lockFileMaintenance": {
+                    "enabled": true,
+                    "schedule": [
+                        "at any time"
+                    ],
+                    "automerge": true,
+                    "groupName": "LockFile Maintenance"
+                },
+                "packageRules": [
+                    {
+                        "groupName": "Manuall updates",
+                        "packageNames": [
+                            "eslint",
+                            "prettier",
+                            "stylelint",
+                            "typescript"
+                        ],
+                        "enabled": false
+                    },
+                    {
+                        "description": "disable package.json > engines update",
+                        "depTypeList": [
+                            "engines"
+                        ],
+                        "enabled": false
+                    }
+                ]
+            }
+        },
+        "maintenance": {
+            "extends": [
+                "@croutonn"
+            ],
+            "npm": {
+                "major": {
+                    "enabled": false
+                }
+            }
         }
-      }
+    },
+    "prettier": {
+        "singleQuote": false,
+        "printWidth": 120,
+        "tabWidth": 4
+    },
+    "lint-staged": {
+        "*.{js,jsx,ts,tsx,css}": [
+            "prettier --write"
+        ]
+    },
+    "husky": {
+        "hooks": {
+            "post-commit": "git reset",
+            "pre-commit": "lint-staged"
+        }
     }
-  },
-  "prettier": {
-    "singleQuote": false,
-    "printWidth": 120,
-    "tabWidth": 4
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,css}": [
-      "prettier --write"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "post-commit": "git reset",
-      "pre-commit": "lint-staged"
-    }
-  }
 }

@@ -800,10 +800,15 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@6.2.0, commander@^6.2.0:
+commander@6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.0.tgz#b990bfb8ac030aedc6d11bc04d1488ffef56db75"
   integrity sha512-zP4jEKbe8SHzKJYQmq8Y9gYjtO/POJLgIdKgV7B9qNmABVFVc+ctqSX6iXh4mCpJfRBOabiZ2YKPg8ciDw6C+Q==
+
+commander@^6.2.0:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
+  integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
 
 compare-versions@^3.6.0:
   version "3.6.0"
@@ -1587,9 +1592,9 @@ human-signals@^1.1.1:
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
 husky@^4.3.5:
-  version "4.3.5"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-4.3.5.tgz#ab8d2a0eb6b62fef2853ee3d442c927d89290902"
-  integrity sha512-E5S/1HMoDDaqsH8kDF5zeKEQbYqe3wL9zJDyqyYqc8I4vHBtAoxkDBGXox0lZ9RI+k5GyB728vZdmnM4bYap+g==
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-4.3.6.tgz#ebd9dd8b9324aa851f1587318db4cccb7665a13c"
+  integrity sha512-o6UjVI8xtlWRL5395iWq9LKDyp/9TE7XMOTvIpEVzW638UcGxTmV5cfel6fsk/jbZSTlvfGVJf2svFtybcIZag==
   dependencies:
     chalk "^4.0.0"
     ci-info "^2.0.0"
@@ -3124,9 +3129,9 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^24.2.0:
-  version "24.2.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.2.1.tgz#c8ec2dfdcb39f08ac823f52b74f00b088c7697f5"
-  integrity sha512-ZsN931gtbtgNlWXW1Lb3mlle6Qf8RwmEAhdVsNxkTseNF9h7lUBzYv6es3U/uc7zVWAenr+9FVKMpgHoKd4flw==
+  version "24.2.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.2.5.tgz#db2e49fe4ac32bc5a9a06f8be469ee6e3eec6ff7"
+  integrity sha512-vZhBgEnPhIvQc42pkSZVShLL8vBMgWy2xAQxXYGSXEitBBmNEtP5gRDZiu3sEdtANntM4XOMSx/fo4+UM4XHog==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"

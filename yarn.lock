@@ -139,14 +139,14 @@
   integrity sha512-fZQQafSREFyuZcdWFAExYjBiCL7AUCdgsk80iO0q4yihYYdcIiH28CcuPTGFgLOCC8RlW49GSQxdHwZP+I7CNg==
 
 "@types/node@*":
-  version "14.14.19"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.19.tgz#5135176a8330b88ece4e9ab1fdcfc0a545b4bab4"
-  integrity sha512-4nhBPStMK04rruRVtVc6cDqhu7S9GZai0fpXgPXrFpcPX6Xul8xnrjSdGB4KPBVYG/R5+fXWdCM8qBoiULWGPQ==
+  version "14.14.20"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.20.tgz#f7974863edd21d1f8a494a73e8e2b3658615c340"
+  integrity sha512-Y93R97Ouif9JEOWPIUyU+eyIdyRqQR0I8Ez1dzku4hDx34NWh4HbtIc3WNzwB1Y9ULvNGeu5B8h8bVL5cAk4/A==
 
 "@types/node@^13.7.0":
-  version "13.13.38"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.38.tgz#66a7c068305dbd64cf167d0f6b6b6be71dd453e1"
-  integrity sha512-oxo8j9doh7ab9NwDA9bCeFfjHRF/uzk+fTljCy8lMjZ3YzZGAXNDKhTE3Byso/oy32UTUQIXB3HCVHu3d2T3xg==
+  version "13.13.39"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.39.tgz#237d071fb593d3aaa96f655a8eb2f91e0fb1480c"
+  integrity sha512-wct+WgRTTkBm2R3vbrFOqyZM5w0g+D8KnhstG9463CJBVC3UVZHMToge7iMBR1vDl/I+NWFHUeK9X+JcF0rWKw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -3144,9 +3144,9 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^24.11.3:
-  version "24.11.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.11.3.tgz#6e42e2196b5ec3c7237c1617f79c044625900995"
-  integrity sha512-lJMvY8N19WlSg0KYudCaos962vtDDriupNZ/LD24FYRBexkuCSvFVQMZariwArTGOjE75rJ/XBsZw7evrl0OQQ==
+  version "24.11.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.11.4.tgz#647309faacaeba2dc967184bd8f80c5355b44ab6"
+  integrity sha512-SLJMFGa9Bb+ZmbqHlkJoG2bQCZpR5oZASLX6t8TgGAK49ZbpjzFH8nxZa0fpbfgyi+hlwuSSXUF8Ndq/Z0ZC1w==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"

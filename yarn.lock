@@ -612,9 +612,9 @@ cacheable-request@^7.0.1:
     responselike "^2.0.0"
 
 call-bind@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.1.tgz#29aca9151f8ddcfd5b9b786898f005f425e88567"
-  integrity sha512-tvAvUwNcRikl3RVF20X9lsYmmepsovzTWeJiXjO0PkJp15uy/6xKFZOQtuiSULwYW+6ToZBprphCgWXC2dSgcQ==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
+  integrity sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA==
   dependencies:
     function-bind "^1.1.1"
     get-intrinsic "^1.0.2"
@@ -1483,10 +1483,10 @@ handlebars@4.7.6:
   optionalDependencies:
     uglify-js "^3.1.4"
 
-handy-redis@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/handy-redis/-/handy-redis-2.1.0.tgz#783596960d48c3a81db9996f98ae2db78838d961"
-  integrity sha512-XEv5k1/vCkvASfzOTNqW4Ft1+QrMbY274uB9KSpBLw1EtzVefXoO4SgdAlUddMHQd6ftv7KWJgr7kb5TXRMk5w==
+handy-redis@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/handy-redis/-/handy-redis-2.2.1.tgz#33f4293dffba7e0c2b198c4a4ce7cd4a832b5ecc"
+  integrity sha512-Kmz9HhdAA9tGV1b1R6m3AJ8GcC+r/0uzyiTia39Q8tseJJc4kOwGGQr7cfPppD/xlO2ENE5IK+ToRahLuX1JVg==
   dependencies:
     "@types/redis" "^2.8.27"
 
@@ -3160,9 +3160,9 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^24.11.3:
-  version "24.15.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.15.1.tgz#9a6fb89dd38ae5b8c82de1915e0b521acd5c42fe"
-  integrity sha512-0BMm33elbYxk9GurPnRg1WkPpGxCDoEnNkyPB2f65fRc/jC/+vR3KHmsYYSXTwWabp6oMCfAYJe+djFI+BG3uw==
+  version "24.16.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.16.2.tgz#0a24cd43304319920dd3c221cb476c9a1b332cf8"
+  integrity sha512-ciLDDJ6FkyQ/4ywl6uIdvAas9lMs10/R2QU/ffno0yKHUuWfNb1NLuxodxN8c42lSn1THSjedyMSDj5QEhb+kw==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
@@ -3194,7 +3194,7 @@ renovate@^24.11.3:
     global-agent "2.1.12"
     got "11.8.1"
     handlebars "4.7.6"
-    handy-redis "2.1.0"
+    handy-redis "2.2.1"
     hasha "5.2.2"
     ignore "5.1.8"
     ini "1.3.8"

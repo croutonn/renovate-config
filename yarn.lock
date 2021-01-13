@@ -2925,9 +2925,9 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 qs@^6.9.1, qs@^6.9.4:
-  version "6.9.4"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.4.tgz#9090b290d1f91728d3c22e54843ca44aea5ab687"
-  integrity sha512-A1kFqHekCTM7cz0udomYUoYNWjBebHm/5wzU/XqrBRBNWectVH0QIiN+NEcZ0Dte5hvzHwbr8+XQmguPhJ6WdQ==
+  version "6.9.5"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.5.tgz#45859f731392198fbd3f91ea4290e7c4e25232fa"
+  integrity sha512-T0SnbxGiMcB09qd3bFcPt8rufxPs7T7TjePk33r1WsJNt12/rWsK/ofKqRHQ0rY/iMGE0mVdkc6Yg9CuL/ty0Q==
 
 qs@~6.5.2:
   version "6.5.2"
@@ -3160,9 +3160,9 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^24.11.3:
-  version "24.16.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.16.2.tgz#0a24cd43304319920dd3c221cb476c9a1b332cf8"
-  integrity sha512-ciLDDJ6FkyQ/4ywl6uIdvAas9lMs10/R2QU/ffno0yKHUuWfNb1NLuxodxN8c42lSn1THSjedyMSDj5QEhb+kw==
+  version "24.16.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.16.3.tgz#25be4497dff8fadccb172ffbea79aa1ace6de907"
+  integrity sha512-epdZLxqqOrs+qos+HhsYybexObwOV9e903eMNLs7JZjZVi7nPq7JBTmweGvUJsbaxRd73wSgdfFhfXQWfhWJXQ==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"

@@ -1182,9 +1182,9 @@ fast-deep-equal@3.1.3, fast-deep-equal@^3.1.1:
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
 fast-glob@^3.1.1, fast-glob@^3.2.2:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.4.tgz#d20aefbf99579383e7f3cc66529158c9b98554d3"
-  integrity sha512-kr/Oo6PX51265qeuCYsyGypiO5uJFgBS0jksyG7FUeCyQzNwYnzrNIMR1NXfkZXsMYXYLRAHgISHBz8gQcxKHQ==
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.5.tgz#7939af2a656de79a4f1901903ee8adcaa7cb9661"
+  integrity sha512-2DtFcgT68wiTTiwZ2hNdJfcHNke9XOfnwmBRWXhmeKM8rF0TGwmC/Qto3S7RoZKp5cilZbxzO5iTNTQsJ+EeDg==
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
     "@nodelib/fs.walk" "^1.2.3"
@@ -3161,9 +3161,9 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^24.17.3:
-  version "24.20.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.20.0.tgz#7f5ef688153bbaef9bffc4f1fa6c7b91adfc4338"
-  integrity sha512-YTmNSVU5Gc8RRO74DS/lero+BHZ/bmZII/oBtfKERn1C9IgK5Yo098pVDQkvhaxyzVRHyiDWeQK2eRUATtYQKg==
+  version "24.22.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.22.2.tgz#c0b85541786a2d31d9f2bc1b8b00485c55a26616"
+  integrity sha512-2Lcw5ECnNftoo2GW6Uluuqs/K1TlRU7WBXd3f8k2jHY0owZj4YMCasY1TGZMgsW4vl9IaLTMwkBJKVegZHm8bA==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"

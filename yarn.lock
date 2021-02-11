@@ -1675,6 +1675,11 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+filter-obj@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/filter-obj/-/filter-obj-1.1.0.tgz#9b311112bc6c6127a16e016c6c5d7f19e0805c5b"
+  integrity sha1-mzERErxsYSehbgFsbF1/GeCAXFs=
+
 find-up@5.0.0, find-up@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/find-up/-/find-up-5.0.0.tgz#4c92819ecb7083561e4f4a240a86be5198f536fc"
@@ -3348,11 +3353,12 @@ qs@~6.5.2:
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
 query-string@^6.13.8:
-  version "6.13.8"
-  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.13.8.tgz#8cf231759c85484da3cf05a851810d8e825c1159"
-  integrity sha512-jxJzQI2edQPE/NPUOusNjO/ZOGqr1o2OBa/3M00fU76FsLXDVbJDv/p7ng5OdQyorKrkRz1oqfwmbe5MAMePQg==
+  version "6.14.0"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.14.0.tgz#0b7b7ca326f5facf10dd2d45d26645cd287f8c92"
+  integrity sha512-In3o+lUxlgejoVJgwEdYtdxrmlL0cQWJXj0+kkI7RWVo7hg5AhFtybeKlC9Dpgbr8eOC4ydpEh8017WwyfzqVQ==
   dependencies:
     decode-uri-component "^0.2.0"
+    filter-obj "^1.1.0"
     split-on-first "^1.0.0"
     strict-uri-encode "^2.0.0"
 
@@ -3585,9 +3591,9 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^24.42.1:
-  version "24.42.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.42.3.tgz#e99cf76924472d50e81343dd59727bbd14c45650"
-  integrity sha512-KyXfedKMyf9hHLavAVgb5l7ILFguq87Roj85hI2rHg7rzSJB1zNktwvnlZ9P50AHA23gcOjawMTQTsnJ/yuezg==
+  version "24.44.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.44.2.tgz#64b43adc30e815ce6a35fbf091bb1a56d5ba589f"
+  integrity sha512-/rfDgttoPzOzDHPFWh9/5VlLCAhLwRD2ZJaXFuXgZPPb0/YC5l+skFMx4EtSkgLRxoJlXflEmpiXcdjTuaaBZg==
   dependencies:
     "@aws-sdk/client-ecr" "3.4.1"
     "@breejs/later" "4.0.2"

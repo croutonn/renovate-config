@@ -3420,9 +3420,9 @@ re2@1.15.9:
     node-gyp "^7.1.2"
 
 react-native-get-random-values@^1.4.0:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/react-native-get-random-values/-/react-native-get-random-values-1.5.1.tgz#f335a37c09a4892deaf40187e73a888e14e82d60"
-  integrity sha512-L76sTcz3jdFmc7Gn41SHOxCioYY3m4rtuWEUI6X8IeWVmkflHXrSyAObOW4eNTM5qytH+45pgMCVKJzfB/Ik4A==
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-get-random-values/-/react-native-get-random-values-1.6.0.tgz#9035636b2dc2a6d574f2803205381fe1a7b5c864"
+  integrity sha512-sPTRTJk4bpuZeTBf6d7DldQGAOCi0GZh5NxzNI3eHXzxwHbNkV13Q22TehiSb3bsaVqwLC4UAa6QvYIucyyc+A==
   dependencies:
     fast-base64-decode "^1.0.0"
 
@@ -3609,9 +3609,9 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^24.49.9:
-  version "24.49.9"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.49.9.tgz#522d468d83fdc46b367fcaec391031b622cd07dc"
-  integrity sha512-oQRcYGxz1ZXGtVO5O1VML6Vax/GtConvdXD8YzHePipcc5wbDJG/pHawkDgXlM0ePL26DiF/fGD5SMOCGqb1Xg==
+  version "24.52.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.52.1.tgz#41155d10e5c431c42eaf55e7d513f986c43a68ad"
+  integrity sha512-YmoLUnHthsduZp5tY5xV5avfV5bbluL7tPzCTSU9stGR3C98BZJTjJmcxW/hRIWTrz6mF+1A97K+J4q8c4+Nww==
   dependencies:
     "@aws-sdk/client-ecr" "3.5.0"
     "@breejs/later" "4.0.2"

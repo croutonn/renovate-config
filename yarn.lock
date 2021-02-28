@@ -2008,9 +2008,9 @@ has-flag@^4.0.0:
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
 has-symbols@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.1.tgz#9f5214758a44196c406d9bd76cebf81ec2dd31e8"
-  integrity sha512-PLcsoqu++dmEIZB+6totNFKq/7Do+Z0u4oT0zKOJNl3lYK6vGwwu2hjHs+68OEZbTjiUE9bgOABXbP/GvrS0Kg==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.2.tgz#165d3070c00309752a1236a479331e3ac56f1423"
+  integrity sha512-chXa79rL/UC2KlX17jo3vRGz0azaWEx5tGqZg5pO3NUyEJVB17dMruQlzCCOfUvElghKcm5194+BCRvi2Rv/Gw==
 
 has-unicode@^2.0.0:
   version "2.0.1"
@@ -3638,9 +3638,9 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^24.59.1:
-  version "24.66.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.66.4.tgz#ce44b779e1748b8be74c77853bc01bba7aed9402"
-  integrity sha512-eIuL1u+gAOuAXZfKbSdJRGYr/C97i0DFFyGIWssLehOk1RuZhqvHP4QWGKVcC5AlmmZh9+VIL1Q7YEbgx9YS/A==
+  version "24.67.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.67.5.tgz#0d741e9819982cf9c4bf6976117f5c120f85300b"
+  integrity sha512-t9eR1DyZKfnLx1nDMj4wpbNiHV74MBlG5PFs+ccA8oiSJFWnMJjxM/nXXt89EChZcH8A/GOVvbqWjgqdN/AmEA==
   dependencies:
     "@aws-sdk/client-ecr" "3.5.0"
     "@breejs/later" "4.0.2"
@@ -3701,7 +3701,7 @@ renovate@^24.59.1:
     shlex "2.0.2"
     shortid "2.2.16"
     simple-git "2.34.2"
-    slugify "1.4.6"
+    slugify "1.4.7"
     traverse "0.6.6"
     upath "2.0.1"
     url-join "4.0.1"
@@ -3985,10 +3985,10 @@ slice-ansi@^4.0.0:
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
 
-slugify@1.4.6:
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.4.6.tgz#ef288d920a47fb01c2be56b3487b6722f5e34ace"
-  integrity sha512-ZdJIgv9gdrYwhXqxsH9pv7nXxjUEyQ6nqhngRxoAAOlmMGA28FDq5O4/5US4G2/Nod7d1ovNcgURQJ7kHq50KQ==
+slugify@1.4.7:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.4.7.tgz#e42359d505afd84a44513280868e31202a79a628"
+  integrity sha512-tf+h5W1IrjNm/9rKKj0JU2MDMruiopx0jjVA5zCdBtcGjfp0+c5rHw/zADLC3IeKlGHtVbHtpfzvYA0OYT+HKg==
 
 source-map@^0.6.1, source-map@~0.6.1:
   version "0.6.1"
@@ -4124,9 +4124,9 @@ string-width@^1.0.1:
     strip-ansi "^4.0.0"
 
 string-width@^4.1.0, string-width@^4.2.0:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.1.tgz#1933ce1f470973d224368009bd1316cad81d5f4f"
-  integrity sha512-LL0OLyN6AnfV9xqGQpDBwedT2Rt63737LxvsRxbcwpa2aIeynBApG2Sm//F3TaLHIR1aJBN52DWklc06b94o5Q==
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.2.tgz#dafd4f9559a7585cfba529c6a0a4f73488ebd4c5"
+  integrity sha512-XBJbT3N4JhVumXE0eoLU9DCjcaF92KLNqTmFCnG1pf8duUxFGwtP6AD6nkjw9a3IdiRtL3E2w3JDiE/xi3vOeA==
   dependencies:
     emoji-regex "^8.0.0"
     is-fullwidth-code-point "^3.0.0"

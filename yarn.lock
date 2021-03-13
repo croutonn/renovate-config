@@ -620,9 +620,9 @@
   integrity sha512-fZQQafSREFyuZcdWFAExYjBiCL7AUCdgsk80iO0q4yihYYdcIiH28CcuPTGFgLOCC8RlW49GSQxdHwZP+I7CNg==
 
 "@types/node@*":
-  version "14.14.33"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.33.tgz#9e4f8c64345522e4e8ce77b334a8aaa64e2b6c78"
-  integrity sha512-oJqcTrgPUF29oUP8AsUqbXGJNuPutsetaa9kTQAQce5Lx5dTYWV02ScBiT/k1BX/Z7pKeqedmvp39Wu4zR7N7g==
+  version "14.14.34"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.34.tgz#07935194fc049069a1c56c0c274265abeddf88da"
+  integrity sha512-dBPaxocOK6UVyvhbnpFIj2W+S+1cBTkHQbFQfeeJhoKFbzYcVUGHvddeWPSucKATb3F0+pgDq0i6ghEaZjsugA==
 
 "@types/node@^13.7.0":
   version "13.13.46"
@@ -3520,9 +3520,9 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^24.74.4:
-  version "24.79.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.79.1.tgz#ff02ea6cb9b273c0be4209dc60c780c0136ba138"
-  integrity sha512-CtyscG2b2iCe4+Tze6k9rNpNEa+yP34+HqLEgKPegOAB4CujoW0n7wAL3V7//r0Tl+bqpsXJJdnPp9HJTXUEYA==
+  version "24.80.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.80.1.tgz#3e08d50fa836213551ad3dbec5875fe2e90146b7"
+  integrity sha512-t4to2ov23ypMPiWE5JXi9upog7/zlWStiZaWP4T828wEjwoUNNiEqld9AWRq3Go3DlGLg8aOmhrYNn7CC9nDiw==
   dependencies:
     "@aws-sdk/client-ecr" "3.5.0"
     "@breejs/later" "4.0.2"

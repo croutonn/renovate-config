@@ -39,6 +39,17 @@
                 "config:base",
                 ":timezone(Asia/Tokyo)"
             ],
+            "labels": [
+                "dependencies",
+                "renovate"
+            ],
+            "dependencyDashboard": true,
+            "schedule": [
+                "every weekend"
+            ],
+            "pin": {
+                "automerge": true
+            },
             "npm": {
                 "extends": [
                     ":noUnscheduledUpdates",
@@ -75,9 +86,6 @@
                 },
                 "lockFileMaintenance": {
                     "enabled": true,
-                    "schedule": [
-                        "at any time"
-                    ],
                     "automerge": true,
                     "groupName": "LockFile Maintenance"
                 },

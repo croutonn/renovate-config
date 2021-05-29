@@ -1,8 +1,8 @@
 {
-    "name": "@croutonn/renovate-config",
+    "name": "@typehut/renovate-config",
     "description": "Shareable config for Renovate (renovatebot.com)",
     "version": "1.0.0",
-    "author": "croutonn <croutonna@gmail.com>",
+    "author": "croutonn <croutonn@gmail.com>",
     "main": "index.js",
     "files": [
         "index.js"
@@ -17,13 +17,13 @@
         "prettier": "^2.3.0",
         "renovate": "^25.33.0"
     },
-    "homepage": "https://github.com/croutonn/renovate-config",
+    "homepage": "https://github.com/typehut/renovate-config",
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/croutonn/renovate-config.git"
+        "url": "git+ssh://git@github.com/typehut/renovate-config.git"
     },
     "bugs": {
-        "url": "https://github.com/croutonn/renovate-config/issues"
+        "url": "https://github.com/typehut/renovate-config/issues"
     },
     "keywords": [
         "npm",
@@ -112,7 +112,7 @@
         },
         "maintenance": {
             "extends": [
-                "@croutonn"
+                "@typehut"
             ],
             "npm": {
                 "major": {

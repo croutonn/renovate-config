@@ -1,12 +1,3 @@
 {
-  "extends": [
-    "@typehut"
-  ],
-  "packageRules": [
-    {
-      "packageNames": [
-        "renovate"
-      ]
-    }
-  ]
+    "extends": ["@typehut"]
 }

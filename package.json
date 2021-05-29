@@ -1,140 +1,142 @@
 {
-    "name": "@typehut/renovate-config",
-    "description": "Shareable config for Renovate (renovatebot.com)",
-    "version": "1.0.0",
-    "author": "croutonn <croutonn@gmail.com>",
-    "main": "index.js",
-    "files": [
-        "index.js"
-    ],
-    "scripts": {
-        "test": "renovate-config-validator",
-        "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\""
-    },
-    "devDependencies": {
-        "husky": "^6.0.0",
-        "lint-staged": "^11.0.0",
-        "prettier": "^2.3.0",
-        "renovate": "^25.33.0"
-    },
-    "homepage": "https://github.com/typehut/renovate-config",
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/typehut/renovate-config.git"
-    },
-    "bugs": {
-        "url": "https://github.com/typehut/renovate-config/issues"
-    },
-    "keywords": [
-        "npm",
+  "name": "@typehut/renovate-config",
+  "description": "Shareable config for Renovate (renovatebot.com)",
+  "version": "1.0.0",
+  "author": "croutonn <croutonn@gmail.com>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "renovate-config-validator",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\""
+  },
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0",
+    "renovate": "^25.33.0"
+  },
+  "homepage": "https://github.com/typehut/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/typehut/renovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typehut/renovate-config/issues"
+  },
+  "keywords": [
+    "npm",
+    "renovate"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base",
+        ":timezone(Asia/Tokyo)"
+      ],
+      "labels": [
+        "dependencies",
         "renovate"
-    ],
-    "license": "MIT",
-    "publishConfig": {
-        "access": "public"
-    },
-    "renovate-config": {
-        "default": {
-            "extends": [
-                "config:base",
-                ":timezone(Asia/Tokyo)"
-            ],
-            "labels": [
-                "dependencies",
-                "renovate"
-            ],
-            "dependencyDashboard": true,
-            "schedule": [
-                "every weekend"
-            ],
-            "pin": {
-                "automerge": true
-            },
-            "npm": {
-                "extends": [
-                    ":noUnscheduledUpdates",
-                    ":semanticPrefixFixDepsChoreOthers",
-                    ":separatePatchReleases",
-                    ":unpublishSafe",
-                    ":prNotPending",
-                    "helpers:disableTypesNodeMajor"
-                ],
-                "prBodyDefinitions": {
-                    "CompatibilityScore": "[![compatibility-score for {{{depNameEscaped}}}](https://api.dependabot.com/badges/compatibility_score?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})](https://dependabot.com/compatibility-score/?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})",
-                    "Sourcegraph": "[![code search for \"{{{depName}}}\"](https://sourcegraph.com/search/badge?q=repo:%5Egithub%5C.com/{{{repository}}}%24+case:yes+{{{depName}}}&label=matches)](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/{{{repository}}}%24+case:yes+{{{depName}}})"
-                },
-                "prBodyColumns": [
-                    "Package",
-                    "Update",
-                    "Type",
-                    "Change",
-                    "CompatibilityScore",
-                    "Sourcegraph"
-                ],
-                "rangeStrategy": "bump",
-                "automergeType": "branch",
-                "major": {
-                    "automerge": false
-                },
-                "minor": {
-                    "automerge": true,
-                    "groupName": "Minor updates"
-                },
-                "patch": {
-                    "automerge": true,
-                    "groupName": "Patch updates"
-                },
-                "lockFileMaintenance": {
-                    "enabled": true,
-                    "automerge": true,
-                    "groupName": "LockFile Maintenance"
-                },
-                "packageRules": [
-                    {
-                        "groupName": "Manuall updates",
-                        "packageNames": [
-                            "eslint",
-                            "prettier",
-                            "stylelint",
-                            "typescript"
-                        ],
-                        "enabled": false
-                    },
-                    {
-                        "description": "disable package.json > engines update",
-                        "depTypeList": [
-                            "engines"
-                        ],
-                        "enabled": false
-                    }
-                ]
-            }
+      ],
+      "schedule": [
+        "every weekend"
+      ],
+      "pin": {
+        "automerge": true
+      },
+      "npm": {
+        "extends": [
+          ":noUnscheduledUpdates",
+          ":separatePatchReleases",
+          "npm:unpublishSafe",
+          ":prNotPending",
+          "helpers:disableTypesNodeMajor"
+        ],
+        "rangeStrategy": "bump",
+        "automergeType": "branch",
+        "major": {
+          "automerge": false
         },
-        "maintenance": {
-            "extends": [
-                "@typehut"
+        "minor": {
+          "automerge": true,
+          "groupName": "Minor updates"
+        },
+        "patch": {
+          "automerge": true,
+          "groupName": "Patch updates"
+        },
+        "packageRules": [
+          {
+            "groupName": "Manuall updates",
+            "enabled": false,
+            "matchPackageNames": [
+              "eslint",
+              "prettier",
+              "stylelint",
+              "typescript"
+            ]
+          },
+          {
+            "matchPackagePatterns": [
+              "^@types/",
+              "^eslint",
+              "^prettier",
+              "^stylelint"
             ],
-            "npm": {
-                "major": {
-                    "enabled": false
-                }
+            "automerge": true,
+            "major": {
+              "automerge": false
+            },
+            "minor": {
+              "automerge": false
             }
-        }
-    },
-    "prettier": {
-        "singleQuote": false,
-        "printWidth": 120,
-        "tabWidth": 4
-    },
-    "lint-staged": {
-        "*.{js,jsx,ts,tsx,css}": [
-            "prettier --write"
+          },
+          {
+            "description": "disable package.json > engines update",
+            "enabled": false,
+            "matchDepTypes": [
+              "engines"
+            ]
+          },
+          {
+            "groupName": "ts-node",
+            "matchPackagePrefixes": [
+              "ts-node",
+              "ts-node-test-register"
+            ]
+          }
         ]
+      }
     },
-    "husky": {
-        "hooks": {
-            "post-commit": "git reset",
-            "pre-commit": "lint-staged"
+    "maintenance": {
+      "extends": [
+        "@typehut"
+      ],
+      "npm": {
+        "major": {
+          "enabled": false
         }
+      }
     }
+  },
+  "prettier": {
+    "singleQuote": false,
+    "semi": false
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css}": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "post-commit": "git reset",
+      "pre-commit": "lint-staged"
+    }
+  }
 }

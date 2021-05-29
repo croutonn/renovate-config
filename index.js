@@ -1,1 +1,1 @@
-console.log("@croutonn/renovate-config");
+console.log("@typehut/renovate-config");
